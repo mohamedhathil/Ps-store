@@ -1,0 +1,56 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.navbar{
+    background-color: #0091F7;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.active{
+   color:white !important;
+   background-color:#0091F7 !important;
+}
+.head{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.high {
+    font-weight: bolder;
+    background: linear-gradient(45deg, #ff00a6, #8a2be2);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+    animation: fadeEffect 4s ease-in-out infinite;
+  }
+  
+  @keyframes fadeEffect {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+/* .adjust{
+    height: 67%;
+} */
+ul li a{
+    color: black;
+}
+ul li{
+    margin-left: 20px;
+}
+/* .foot{
+    margin-top: 98%;
+} */
+
+@media (max-width: 992px) {
+   /* .foot{
+        margin-top: 98%;
+    }
+    .adjust{
+        height: 82%;
+    } */
+    .foot{
+        margin-left: 23px;
+    }
+  }
