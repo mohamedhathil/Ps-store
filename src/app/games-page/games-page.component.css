@@ -6,3 +6,42 @@
   .card-title {
     min-height: 3rem;
   }
+  .text-truncate-multiline {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 3rem; /* adjust based on line height */
+}
+.custom-card {
+  height: 100%;
+}
+.ps-logo-img {
+  height: 40px;
+}
+
+@media (max-width: 576px) {
+  .custom-card {
+    height: 360px; /* or any shorter height for mobile */
+  }
+
+  .custom-card img {
+    height: 160px !important;
+    object-fit: cover;
+  }
+
+  .truncate-title {
+    white-space: nowrap;
+    height: auto; /* fallback if needed */
+  }
+  .ps-logo-img {
+    height: 55px; /* larger logo on small screens */
+  }
+}
+.promo-banner {
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Stylish gradient */
+  background-size: cover;
+  color: white;
+  border-radius: 1rem;
+}
+
